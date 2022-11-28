@@ -10,6 +10,13 @@
       />
       <button id="load">LOAD MORE</button>  
     </div>
+    <div id="collectibles">
+      <div id="item"><img src="../assets/buy-comics-digital-comics.png" alt="errore"><span>DIGITAL COMICS</span></div>
+      <div id="item"><img src="../assets/buy-comics-merchandise.png" alt="errore"><span>DC MERCHANDISE</span></div>
+      <div id="item"><img src="../assets/buy-comics-subscriptions.png" alt="errore"><span>SUBSCRIPTION</span></div>
+      <div id="item"><img src="../assets/buy-comics-shop-locator.png" alt="errore"><span>COMIC SHOP LOCATOR</span></div>
+      <div id="item"><img src="../assets/buy-dc-power-visa.svg" alt="errore"><span>DC POWER VISA</span></div>
+    </div>
   </div>
 </template>
 
@@ -144,6 +151,23 @@ export default {
     padding: 5px 30px;
     font-weight: bold;
     font-size: 20px;
+  }
+}
+
+#collectibles{
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  padding: 100px;
+  gap: 50px;
+  #item{
+    display: flex;
+    gap: 15px;
+    span{
+      align-self: center;
+      color: white;
+    }
   }
 }
 </style>
