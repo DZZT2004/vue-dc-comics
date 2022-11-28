@@ -29,7 +29,7 @@ export default {
 <!-- CSS -->
 <style scoped lang="scss">
 #head {
-  padding: 25px 250px 40px 250px;
+  padding: 25px 250px 10px 250px;
   display: flex;
   justify-content: space-between;
 }
